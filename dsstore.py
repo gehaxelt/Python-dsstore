@@ -114,7 +114,7 @@ class DataBlock(object):
 
     def _log(self, *args):
         if self.debug:
-            print("[DEBUG] ", *args)
+            print("[DEBUG] {}".format(*args))
 
 class DS_Store(DataBlock, object):
     """
