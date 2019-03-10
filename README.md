@@ -6,6 +6,19 @@ A sample file form a CTF is included in the `./samples/` directory and the you c
 
 Here's my blogpost that tries to explain the structure and format in detail:  https://0day.work/parsing-the-ds_store-file-format/
 
+# Usage
+
+```
+$ python main.py samples/.DS_Store.ctf 
+Count:  6
+favicon.ico
+flag
+static
+templates
+vulnerable.py
+vulnerable.wsgi
+```
+
 # Useful ressources
 
 I found the following links to be quite helpful while developing the parser:
